@@ -100,26 +100,87 @@
 #     for _ in range(height):
 #         print("#")
 
-def print_row(width):
-    print("?" * width)
-# main()
+# def print_row(width):
+#     print("?" * width)
+# # main()
+
+# # def main():
+# #     print_square(5)
+
+# # def print_square(size):
+# #     for i in range(size):
+# #         for j in range(size):
+# #             print("#", end="")
+# #         print()
+
+# # main()
 
 # def main():
 #     print_square(5)
 
 # def print_square(size):
 #     for i in range(size):
-#         for j in range(size):
-#             print("#", end="")
-#         print()
+#         print_row(size)
 
 # main()
 
-def main():
-    print_square(5)
+# import random
 
-def print_square(size):
-    for i in range(size):
-        print_row(size)
+# # coin = random.choice(["heads", "tails"])
+# # print(coin)
 
-main()
+# cards = ["jack", "king", "qween"]
+
+# random.shuffle(cards)
+
+# print(cards)
+
+# import statistics
+
+# print(statistics.mean([100, 90]))
+
+# import sys
+
+# try:
+#     if (len(sys.argv) < 2):
+#         print("Error: too few arguments")
+#     if (len(sys.argv) > 2):
+#         print("Erro: too many arguments")
+
+#     print("My name is: ", sys.argv[1])
+
+# except IndexError:
+#     pass
+
+# if (len(sys.argv) < 2):
+#     sys.exit("Error: too few arguments")
+# if (len(sys.argv) > 2):
+#     sys.exit("Erro: too many arguments")
+
+# print("My name is: ", sys.argv[1])
+
+
+# import requests
+# import sys
+# import json
+
+# # if len(sys.argv) != 2:
+# #     sys.exit()
+
+# # response = requests.get("https://itunes.apple.com/search?entity=song&limit=1&term=" + sys.argv[1])
+# # print(response.json())
+
+# if len(sys.argv) != 2:
+#     sys.exit()
+
+# response = requests.get("https://itunes.apple.com/search?entity=song&limit=50&term=" + sys.argv[1])
+# print(json.dumps(response.json(), indent=2))
+
+# o = response.json()
+
+# for result in o["results"]:
+#     print(result["trackName"])
+
+
+
+    
